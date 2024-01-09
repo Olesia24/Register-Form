@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form method="post">
+        <div> 
+            <label>
+                <p>First Name</p>
+                <input type="text" name="First Name" placeholder="first name" required>
+        </label>
+    </div>
+    <div> 
+        <label>
+            <p>Last Name</p>
+            <input type="text" name="Last Name" placeholder="last name" required>
+        </label>
+    </div>
+    <div> 
+        <label> 
+            <p>Date of Birth</p>
+            <input type="date" name="Date of Birth" placeholder="01.01.2000" required>
+            <p> </p>
+        </label>
+    </div>
+    <div>   
+        <label for="gender">Select your gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="diverse">Diverse</option>
+        </select>
+    </div>
+    <div> 
+        <label>
+            <p>Email</p>
+            <input type="text" name="Email" placeholder="email@mail.com" required>
+        </label>
+    </div>
+    <div> 
+        <label>
+            <p>Password</p>
+            <input type="password" name="Password" placeholder="password" required>
+            <p> </p>
+        </label>
+    </div>
+    <div>  
+        <label>
+            <input type="checkbox" id="agree" name="agree" required>I agree with the terms of use
+            <p> </p>
+        </label>
+    </div>
+    <button>create new account</button>
+    </form>
+</body>
+</html>
